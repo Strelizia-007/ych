@@ -1,0 +1,7 @@
+pip install pytz
+pip install --upgrade python-telegram-bot apscheduler
+python-telegram-bot>=20.0
+httpx>=0.24
+motor>=3.0          # async MongoDB driver
+pymongo>=4.0        # motor depends on it, pin for clarity
+python-dotenv>=1.0
